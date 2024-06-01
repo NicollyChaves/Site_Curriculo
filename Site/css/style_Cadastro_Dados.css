@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Inter:wght@300&family=Oswald:wght@600&family=PT+Sans:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCAB3;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD5F1B;
+    padding: 1rem;
+}
+
+.form-image img{
+    width: 31rem;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.login-button{
+    display: flex;
+    align-items: center;
+    bottom: 10rem;
+    position: fixed;
+    margin-left: -3%;
+    width: 500px;
+    height: 0px;
+}
+
+.login-button button{
+    margin-top: 2.5rem;
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(to bottom right, #FD5F1B, #FFCAB3);
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: #FD5F1B;
+}
+
+.login-button a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.93rem;
+    color: white;
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-image: linear-gradient(to bottom right, #FD5F1B, #FFCAB3);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.input-group{
+    display: flex;
+    margin-bottom: 1.1rem;
+    margin: center;
+}
+
+.ladoA{
+    display: flex;
+    flex-direction: column; 
+    margin-right: 4rem;
+    align-items: center;
+    
+}
+
+.ladoB{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 4rem;
+    align-items: center;
+}
+
+.input-box{
+    display: flex;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #FFCAB3;
+}
+
+.input-box label{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: black;
+}
+
+.input-box input::placeholder{
+    color: #000000be;   
+}
+
+

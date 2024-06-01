@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Inter:wght@300&family=Oswald:wght@600&family=PT+Sans:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCAB3;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD5F1B;
+    padding: 1rem;
+}
+
+.form-image img{
+    width: 41rem;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Voltar-button{
+    display: flex;
+    align-items: center;
+    bottom: 51rem;
+    position: fixed;
+    margin-left: 64%;
+    height: 0px;
+}
+
+.Voltar-button button{
+    margin-top: 3.5rem;
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(to bottom right, #FD5F1B, #FFCAB3);
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Voltar-button:hover{
+    background-color: #FD5F1B;
+}
+
+.Voltar-button a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.93rem;
+    color: white;
+}
+
+.text{
+    display: flex;
+    width: center;
+    height: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    margin-left: 38rem;
+    margin-right: -38rem;
+    font-size: 1.5em;
+}
+
+.h1 {
+    font-size: 2em;
+    margin-top: -6cm;
+    margin-right: 26cm;
+    width: 18cm;
+    font-weight: bold;
+    color:#FD5F1B;
+  }
